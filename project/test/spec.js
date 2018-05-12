@@ -8,6 +8,7 @@ var dt = dateTime.create();
 var formatted = dt.format('Y-m-d H:M:S');
 var fs = require("fs");
 
+
 fs.writeFile("output.txt",formatted ,function (err) {
 
 
